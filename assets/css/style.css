@@ -174,15 +174,6 @@ h6 {
   background: #191919;
 }
 
-#header .logo {
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
 #header .logo a {
   color: #fff;
@@ -246,7 +237,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   size: auto;
-  background: #01f6e9;
+  background: #ed1a1a;
 }
 
 .navbar .dropdown ul {
@@ -1075,13 +1066,8 @@ section {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.pricing .featured .btn-buy:hover {
-  background: #fff;
-  color: #cc1616;
-}
-
 /*--------------------------------------------------------------
-# Team
+# Referance
 --------------------------------------------------------------*/
 .References .member {
   text-align: center;
@@ -1118,7 +1104,15 @@ section {
 
 
 }
+.certification-item:hover {
 
+  background-color:none;
+  font-size: large;
+
+}
+.certification-item:active{
+  font-size: x-large;
+}
 .References .member p {
   text-align: center;
   padding-top: 10px;
@@ -1452,6 +1446,32 @@ section {
 
 #footer .credits a {
   color: #f20d0d;
+}
+.member {
+  position:relative;
+  overflow: visible;
+  border-radius: 100%;
+  width: auto;
+  height: auto;
+  transition: all;
+}
+
+.member:hover {
+  width:auto;
+  height: auto;
+  background-color: #c5c6b3;
+}
+
+.member img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+
+
+}
+
+.member:hover img {
+  transform: scale(1.2);
 }
 
 @media (max-width: 575px) {
