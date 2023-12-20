@@ -767,6 +767,8 @@ section {
   color: #fff;
 }
 
+
+
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -1108,6 +1110,13 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
+}
+.social .phone-icon{
+  background-color: 4;
+
+
+
+
 }
 
 .References .member p {
