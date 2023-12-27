@@ -1434,4 +1434,22 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}   
+.nav-link:hover{
+color: white;
+font-size: xx-large;
+display: inline-block;
+padding: 10px 20px;
+border-radius: 5px;
+color: #fff;
+background-color: #1ce00b;
+animation: colorChange 3s infinite;
 }
+@keyframes colorChange {
+50% { background-color: #ff0000; }
+50% { background-color: #ceee14; }
+50% { background-color: #00ff00; }
+}
+
+
+
