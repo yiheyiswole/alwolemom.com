@@ -469,13 +469,13 @@ h6 {
 #hero .btn-get-started:hover {
   background: #5409ec;
   border-color: #0710b3;
+  font-size: larger;
+  
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
+
+
+
 
 @media (max-width: 768px) {
   #hero {
@@ -1451,5 +1451,37 @@ animation: colorChange 3s infinite;
 50% { background-color: #00ff00; }
 }
 
+@media (max-width: 800px) {
+  
+  #certifications {
+    text-align: center;
+   
+  }
+
+  .certification-item .imag {
+    width: 120px;
+    height: 72px;
+  }
+
+  .certification-item h3,
+  .certification-item h6 {
+    font-size: 14px;
+  }
+
+  .certification-item {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  /* Show the footer */
+  footer {
+    display:block;
+  }
+
+  /* Show the "back-to-top" button */
+  .back-to-top {
+    display: flex;
+  }
+}
 
 
