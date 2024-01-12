@@ -108,7 +108,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -321,7 +321,7 @@ h6 {
   color: #35dc9c;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -611,7 +611,6 @@ section {
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
-    height: 50%;
   }
 }
 
@@ -1028,7 +1027,7 @@ section {
 /*--------------------------------------------------------------
 # Referance
 --------------------------------------------------------------*/
-.References .person {
+.References .member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -1036,21 +1035,21 @@ section {
   background: #fff;
 }
 
-.References .person img {
+.References .member img {
   text-align: center;
   max-width: 60%;
   border-radius: 50%;
   margin: 0 0 30px 0;
 }
 
-.References .person h4 {
+.References .member h4 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.References .person span {
+.References .member span {
   text-align: center;
   font-style: italic;
   display: block;
@@ -1072,7 +1071,7 @@ section {
 .certification-item:active{
   font-size: x-large;
 }
-.References .person p {
+.References .member p {
   text-align: center;
   padding-top: 10px;
   font-size: 14px;
@@ -1080,21 +1079,21 @@ section {
   color: #aaaaaa;
 }
 
-.References .person .social {
+.References .member .social {
   text-align: center;
   margin-top: 15px;
 }
 
-.References .person .social a {
+.References .member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.References .person .social a:hover {
+.References .member .social a:hover {
   color: #2be41a;
 }
 
-.References .person .social i {
+.References .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -1394,7 +1393,6 @@ section {
   border-top: 1px solid #262626;
   text-align: center;
   padding-top: 30px;
-  
 }
 
 #footer .credits {
@@ -1402,13 +1400,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
-
 }
 
 #footer .credits a {
   color: #f20d0d;
 }
-.person {
+.member {
   position:relative;
   overflow: visible;
   border-radius: 100%;
@@ -1417,13 +1414,13 @@ section {
   transition: all;
 }
 
-.person:hover {
+.member:hover {
   width:auto;
   height: auto;
   background-color: #c5c6b3;
 }
 
-.person img {
+.member img {
   width: auto;
   height: auto;
   object-fit: cover;
@@ -1431,7 +1428,7 @@ section {
 
 }
 
-.person:hover img {
+.member:hover img {
   transform: scale(1.2);
 }
 
@@ -1477,10 +1474,10 @@ animation: colorChange 3s infinite;
     margin-bottom: 20px;
   }
 }
-@media (max-width: 50%) {
+@media (max-width: 800px) {
   /* Show the footer */
   footer {
-    display: block;
+    display:block;
   }
 
   /* Show the "back-to-top" button */
@@ -1489,48 +1486,4 @@ animation: colorChange 3s infinite;
   }
 }
 
-.References {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
-}
 
-.References .person{
-  text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
-  background: #dcddd2;
-}
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
-}
-.row {
-  display: flex;
-  justify-content: center;
-}
-
-.col-lg-4.col-md-6.d-flex.align-items-stretch {
-  flex-basis: 50%;
-}
-
-@media (max-width: 991px) {
-  .row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .col-lg-4.col-md-6.d-flex.align-items-stretch {
-    flex-basis: 100%;
-  }
-}
