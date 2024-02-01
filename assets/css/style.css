@@ -615,7 +615,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Skills 
 --------------------------------------------------------------*/
 .skills .icon-box {
   text-align: center;
@@ -626,7 +626,7 @@ section {
 
 .skills .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
+  width: 48px;
   height: 64px;
   background: #25e0a8;
   transition: all 0.3s ease-out 0s;
@@ -670,7 +670,7 @@ section {
 
 .skills .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 0;
 }
 
@@ -1417,7 +1417,7 @@ section {
 .member:hover {
   width:auto;
   height: auto;
-  background-color: #c5c6b3;
+  background-color: #bac6b3;
 }
 
 .member img {
@@ -1486,4 +1486,11 @@ animation: colorChange 3s infinite;
   }
 }
 
-
+#References .person {
+  display: flex; /* Use flexbox to center the content */
+  flex-direction: column; /* Stack the content vertically */
+  align-items:self-end; /* Center horizontally */
+  text-align: center; /* Center the text within the content */
+  margin: 40px; /* Add spacing around the reference items */
+  margin-left:100;
+}
